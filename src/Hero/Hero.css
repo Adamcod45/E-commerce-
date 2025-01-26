@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Hero-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 90vh;
+    gap: 10px;
+}
+.CartItem {
+    display: flex;
+    flex-direction: column;
+    padding: 7px 7px;
+    border-radius: 7px;
+}
+.CartItem button {
+    padding: 15px 40px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: green;
+}
+.CartItem button:hover {
+    transform: scale(0.9);
+}
+.cartimg {
+    border-radius: 15px;
+    width: 100%;
+}
+@media (max-width:300px) {
+    .Hero-cont  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 7px;
+    }
+}

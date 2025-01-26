@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Logo {
+    width: 80px;
+}
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 7px;
+    height: 10vh;
+    border: 1px solid grey;
+}
+
+.Login button {
+    border: none;
+    padding: 10px 50px;
+    border: 1px solid;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.cartIcon {
+    display: flex;
+    cursor: pointer;
+}
+
+.cartIcon span {
+    font-size: 20px;
+}
